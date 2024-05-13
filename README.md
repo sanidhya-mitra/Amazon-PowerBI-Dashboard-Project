@@ -24,20 +24,16 @@ This project aims to create a dynamic sales dashboard for Amazon's extensive pro
 
 ## Tools and Skills Used 🛠️:
 
+## Tools and Skills Used 🛠️
+
 <table>
     <tr>
-        <!-- Using `colspan="2"` for Microsoft Power BI to allocate more space -->
-        <td colspan="2" align="center"><img alt="Python" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><br>Python</td>
-        <td align="center"><img alt="Excel" width="35px" src="https://cdn.worldvectorlogo.com/logos/excel-4.svg"/><br>Microsoft Excel</td>
-        <td align="center"><img alt="DAX" width="35px" src="https://learn.microsoft.com/en-us/training/achievements/use-dax-power-bi-desktop.svg"/><br>DAX</td>
-    </tr> 
-    <tr>
-        <!-- Place the Dataset in a new row for better spacing -->
-        <td align="center" colspan="4"><img alt="Power BI" width="35px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"/><br>Microsoft Power BI</td>
+        <!-- Specify width for each cell to ensure equal column width -->
+        <td align="center" width="33%"><img alt="Power BI" width="35px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"/><br>Microsoft Power BI</td>
+        <td align="center" width="33%"><img alt="Excel" width="35px" src="https://cdn.worldvectorlogo.com/logos/excel-4.svg"/><br>Microsoft Excel</td>
+        <td align="center" width="33%"><img alt="DAX" width="35px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"/><br>DAX</td>
     </tr>
 </table>
-
-
 
 ## DAX and Data Modeling Details 📈:
 
