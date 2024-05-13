@@ -68,7 +68,7 @@ After setting up the calendar table, I established relationships within the data
 
    This step ensures that all data points are properly aligned with the time dimensions, allowing for dynamic time-based analyses and visualizations.
 
-`
+
 ## Challenges Faced 😵:
 
 While developing the Amazon Sales Dashboard, I encountered several hurdles that put my technical and problem-solving abilities to the test. The major ones I addressed are:
