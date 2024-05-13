@@ -117,7 +117,8 @@ These findings reflect Amazon's effective market strategies and operational exce
 ---
 <div align="center">
 Thank you for taking the time to explore the Amazon Sales Dashboard project! Your interest and feedback are invaluable to me. I greatly appreciate your interest.
-Feel free to reach out for any questions or suggestions about this project. I'm open to discussions and eager to assist. Connect with me on <a href="https://www.linkedin.com/in/sanidhya-mitra">LinkedIn | Sanidhya Mitra</a> <br>
+Feel free to reach out for any questions or suggestions about this project. I'm open to discussions and eager to assist. <br>
+    🌐 Connect with me on <a href="https://www.linkedin.com/in/sanidhya-mitra">LinkedIn | Sanidhya Mitra</a> <br>
 Don't forget to follow and star ⭐ the repository if you find it valuable.
 </div>
 
