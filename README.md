@@ -95,7 +95,7 @@ While developing the Amazon Sales Dashboard, I encountered several hurdles that 
 
 ## Conclusion and Insights 💡:
 
-The Amazon Sales Dashboard provided crucial insights into the sales performance, highlighting significant growth and trends within the company's operations. Here are some key findings from the data visualized through the dashboard:
+The Amazon Dashboard provided crucial insights into the company's performance, highlighting significant growth and trends within the company's operations. Here are some key findings from the data visualized through the dashboard:
 
 - **Total Revenue and Profit**: The dashboard reported a substantial total revenue of 13 million, with a profit of 7 million. This indicates a strong profit margin and robust sales mechanisms.
 
