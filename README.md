@@ -24,8 +24,6 @@ This project aims to create a dynamic sales dashboard for Amazon's extensive pro
 
 ## Tools and Skills Used 🛠️:
 
-## Tools and Skills Used 🛠️
-
 <table>
     <tr>
         <!-- Specify width for each cell to ensure equal column width -->
