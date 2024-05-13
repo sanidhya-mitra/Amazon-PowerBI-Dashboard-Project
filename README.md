@@ -74,16 +74,24 @@ After setting up the calendar table, I established relationships within the data
 
    This step ensures that all data points are properly aligned with the time dimensions, allowing for dynamic time-based analyses and visualizations.
 
-## Challenges Faced 😵:
+`
+## Challenges Faced 😵
 
-Several challenges arose while developing the Amazon Sales Dashboard, putting technical and problem-solving abilities to the test. Here are some of the major issues I encountered and how I addressed them:
+While developing the Amazon Sales Dashboard, I encountered several hurdles that put my technical and problem-solving abilities to the test. The major ones I addressed are:
 
-- **Understanding and Correcting DAX Functions**: One of the first challenges I faced was during the creation of the Quarter column in our Calendar table. The initial formula I used was `Quarter = 'QUARTER('Calendar'[Date])'`, which resulted in an error. I observed the quarter could not be displayed correctly without additional text formatting. After researching and testing different formats, I corrected it to `Quarter = "Q" & QUARTER('Calendar'[Date])`. This improved my troubleshooting skills for DAX formulas.
+- **Understanding and DAX Function Syntax**: The journey began with the Calendar table, specifically when I tried to add a Quarter column. My initial attempt used the formula:
+  ```
+  Quarter = 'QUARTER('Calendar'[Date])'
+  ```
+  But, this quickly resulted in an error. It turned out that I needed to improve my formatting skills. After digging through forums and testing various expressions, I came up with the correct formula:
+  ```
+  Quarter = "Q" & QUARTER('Calendar'[Date])
+  ```
+  This challenge was a great exercise in the importance of syntax precision in DAX and pushed me to deepen my understanding of function contexts.
 
-- **Calendar Table Alignment**: Initially aligning the e-commerce table with the Calendar table was more challenging than anticipated. The dates in the e-commerce table had inconsistencies, such as different formats and missing values, which disrupted the relationship between the tables. I had to standardize the date formats and clean up the missing or incorrect entries before I could finally link the tables.
+- **Data Modeling Nuances**: Aligning the e-commerce table with the Calendar table seemed straightforward—until I faced inconsistencies in date formats and missing entries. To ensure strong linkage, the solution called for meticulous data cleansing and format standardization. 
 
-- **Dynamic Visualizations**: Creating dynamic visualizations that automatically adjust based on user selections (like different time frames or product categories) posed a significant challenge. It was harder than I anticipated. To do so, I needed to learn more advanced Power BI features to ensure that the visualizations were not only responsive, but also intuitive and informative. This required iterative testing and learning to best utilize DAX in visual layers.
-
+- **Creating Dynamic Visualizations**: One of the most exciting yet challenging aspects was developing visualizations that could dynamically adjust based on user interactions. Learning advanced functionalities in Power BI to ensure the visualizations were responsive as well as intuitive and insightful involved a lot of trial and error, but it was incredibly rewarding.
 
 ## Dashboard 📊:
 
@@ -93,13 +101,13 @@ Several challenges arose while developing the Amazon Sales Dashboard, putting te
 
 The Amazon Sales Dashboard provided crucial insights into the sales performance, highlighting significant growth and trends within the company's operations. Here are some key findings from the data visualized through the dashboard:
 
--**Total Revenue and Profit**: The dashboard reported a substantial total revenue of $13 million, with a profit of $7 million. This indicates a strong profit margin and robust sales mechanisms.
+- **Total Revenue and Profit**: The dashboard reported a substantial total revenue of 13 million, with a profit of 7 million. This indicates a strong profit margin and robust sales mechanisms.
 
--**Total Orders and Products**: Over the period analyzed, Amazon processed a total of 10,543 orders involving 44 different products, demonstrating the diversity and scale of Amazon's operations.
+- **Total Orders and Products**: Over the period analyzed, Amazon processed a total of 10,543 orders involving 44 different products, demonstrating the diversity and scale of Amazon's operations.
 
--**Delivery Insights**: Delivery performance varied with 47,000 products delivered in over 10 days, 1,950 within 10 days, and 389,000 impressively within 5 days, showcasing efficient logistics for the majority of orders.
+- **Delivery Insights**: Delivery performance varied with 47,000 products delivered in over 10 days, 1,950 within 10 days, and 389,000 impressively within 5 days, showcasing efficient logistics for the majority of orders.
 
--**Revenue by Date**: There was a significant increase in revenue from $1.8 million in 2019 to $3.8 million in 2020, illustrating rapid growth and increased market penetration.
+- **Revenue by Date**: There was a significant increase in revenue from $1.8 million in 2019 to $3.8 million in 2020, illustrating rapid growth and increased market penetration.
 
 | Rank | Subcategory                   | Revenue   |
 |------|-------------------------------|-----------|
