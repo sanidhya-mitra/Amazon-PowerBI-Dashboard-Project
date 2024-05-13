@@ -1,4 +1,4 @@
-# Amazon Sales Dashboard
+# Amazon Power BI Dashboard
 
 <div align="center">
     <img src="https://cdn.freebiesupply.com/logos/large/2x/amazon-dark-logo-svg-vector.svg" width="500px">
@@ -31,13 +31,13 @@ This project aims to create a dynamic sales dashboard for Amazon's extensive pro
 
 Since a well-structured calendar table is the backbone of effective time-series analysis in any dashboard, I set up the calendar table using DAX:
 
-1. **Creating the Calendar Table:**
+- **Creating the Calendar Table:**
    ```plaintext
    Calendar = CALENDERAUTO()
    ```
    This function generates a calendar table containing a column of date values automatically derived from the data model.
 
-2. **Adding Year, Month, Quarter, and Day Columns:**
+- **Adding Year, Month, Quarter, and Day Columns:**
    ```plaintext
    Year = YEAR('Calendar'[Date])
    Month = FORMAT('Calendar'[Date], "MMM")
@@ -45,7 +45,7 @@ Since a well-structured calendar table is the backbone of effective time-series 
    Day = FORMAT('Calendar'[Date], "DDD")
    ```
 
-3. **Defining Week Type:**
+- **Defining Week Type:**
    ```plaintext
    <Weektype = IF('Calendar'[Day] = "Sun" || 'Calendar'[Day] = "Sat", "Weekend", "Weekday")
    ```
@@ -64,11 +64,11 @@ After setting up the calendar table, I established relationships within the data
 
 Several challenges arose while developing the Amazon Sales Dashboard, putting technical and problem-solving abilities to the test. Here are some of the major issues I encountered and how I addressed them:
 
-1. **Understanding and Correcting DAX Functions**: One of the first challenges I faced was during the creation of the Quarter column in our Calendar table. The initial formula I used was `Quarter = 'QUARTER('Calendar'[Date])'`, which resulted in an error. I observed the quarter could not be displayed correctly without additional text formatting. After researching and testing different formats, I corrected it to `Quarter = "Q" & QUARTER('Calendar'[Date])`. This improved my troubleshooting skills for DAX formulas.
+- **Understanding and Correcting DAX Functions**: One of the first challenges I faced was during the creation of the Quarter column in our Calendar table. The initial formula I used was `Quarter = 'QUARTER('Calendar'[Date])'`, which resulted in an error. I observed the quarter could not be displayed correctly without additional text formatting. After researching and testing different formats, I corrected it to `Quarter = "Q" & QUARTER('Calendar'[Date])`. This improved my troubleshooting skills for DAX formulas.
 
-2. **Calendar Table Alignment**: Initially aligning the e-commerce table with the Calendar table was more challenging than anticipated. The dates in the e-commerce table had inconsistencies, such as different formats and missing values, which disrupted the relationship between the tables. I had to standardize the date formats and clean up the missing or incorrect entries before I could finally link the tables.
+- **Calendar Table Alignment**: Initially aligning the e-commerce table with the Calendar table was more challenging than anticipated. The dates in the e-commerce table had inconsistencies, such as different formats and missing values, which disrupted the relationship between the tables. I had to standardize the date formats and clean up the missing or incorrect entries before I could finally link the tables.
 
-4. **Dynamic Visualizations**: Creating dynamic visualizations that automatically adjust based on user selections (like different time frames or product categories) posed a significant challenge. It was harder than I anticipated. To do so, I needed to learn more advanced Power BI features to ensure that the visualizations were not only responsive, but also intuitive and informative. This required iterative testing and learning to best utilize DAX in visual layers.
+- **Dynamic Visualizations**: Creating dynamic visualizations that automatically adjust based on user selections (like different time frames or product categories) posed a significant challenge. It was harder than I anticipated. To do so, I needed to learn more advanced Power BI features to ensure that the visualizations were not only responsive, but also intuitive and informative. This required iterative testing and learning to best utilize DAX in visual layers.
 
 
 ## Dashboard 📊:
@@ -99,5 +99,7 @@ These findings reflect Amazon's effective market strategies and operational exce
 ---
 <div align="center">
 Thank you for taking the time to explore the Amazon Sales Dashboard project! Your interest and feedback are invaluable to me. I greatly appreciate your interest.
+Feel free to reach out for any questions or suggestions about this project. I'm open to discussions and eager to assist. Connect with me on <a href="https://www.linkedin.com/in/sanidhya-mitra">LinkedIn | Sanidhya Mitra</a> <br>
+Don't forget to follow and star ⭐ the repository if you find it valuable.
 </div>
 
