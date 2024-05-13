@@ -11,19 +11,33 @@
 This project aims to create a dynamic sales dashboard for Amazon's extensive product dataset. The dashboard will help visualize and analyze key metrics to drive strategic business decisions.
 
 ### Key performance indicators include 🔑:
-- **Total Revenue**: Track all income generated from sales.
-- **Total Orders**: Count of all completed sales transactions.
-- **Total Profit**: Net income after all expenses.
-- **Total Products**: Number of unique products sold.
-- **Revenue by Date**: Income distribution over a specific timeframe.
-- **Top 5 Subcategories by Revenue**: Best performing categories.
-- **Delivery Insights**: Analysis of delivery timeframes.
+| Objective                        | Description                                                   |
+|----------------------------------|---------------------------------------------------------------|
+| **Total Revenue**                | Track all income generated from sales.                        |
+| **Total Orders**                 | Count of all completed sales transactions.                    |
+| **Total Profit**                 | Net income after all expenses.                                |
+| **Total Products**               | Number of unique products sold.                               |
+| **Revenue by Date**              | Income distribution over a specific timeframe.                |
+| **Top 5 Subcategories by Revenue** | Best performing categories.                                  |
+| **Delivery Insights**            | Analysis of delivery timeframes.                              |
 
-## Tools and Skills Used 🛠️:
-- Microsoft Power BI
-- Microsoft Excel
-- DAX
-- Dataset
+
+## Tools and Skills Used 🛠️
+
+<table>
+    <tr>
+        <!-- Using `colspan="2"` for Microsoft Power BI to allocate more space -->
+        <td colspan="2" align="center"><img alt="Python" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><br>Python</td>
+        <td align="center"><img alt="Excel" width="35px" src="https://cdn.worldvectorlogo.com/logos/excel-4.svg"/><br>Microsoft Excel</td>
+        <td align="center"><img alt="DAX" width="35px" src="https://learn.microsoft.com/en-us/training/achievements/use-dax-power-bi-desktop.svg"/><br>DAX</td>
+    </tr> 
+    <tr>
+        <!-- Place the Dataset in a new row for better spacing -->
+        <td align="center" colspan="4"><img alt="Power BI" width="35px" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"/><br>Microsoft Power BI</td>
+    </tr>
+</table>
+
+
 
 ## DAX and Data Modeling Details 📈:
 
@@ -87,12 +101,14 @@ The Amazon Sales Dashboard provided crucial insights into the sales performance,
 
 **Revenue by Date**: There was a significant increase in revenue from $1.8 million in 2019 to $3.8 million in 2020, illustrating rapid growth and increased market penetration.
 
-**Top 5 Subcategories by Revenue**:
-  1. **Vitamins and Supplements**: 1.516 million
-  2. **Men's Fashion**: 1.154 million
-  3. **Medical Supplies and Equipment**: 1.091 million
-  4. **Boy's Fashion**: 970k
-  5. **Women's Fashion**: 930k
+| Rank | Subcategory                   | Revenue   |
+|------|-------------------------------|-----------|
+| 1    | **Vitamins and Supplements**  | $1.516 million |
+| 2    | **Men's Fashion**             | $1.154 million |
+| 3    | **Medical Supplies and Equipment** | $1.091 million |
+| 4    | **Boy's Fashion**             | $970k     |
+| 5    | **Women's Fashion**           | $930k     |
+
 
 These findings reflect Amazon's effective market strategies and operational excellence. The varied performance across different product subcategories and the efficiency in delivery systems highlight areas of strength and opportunities for further improvement.
 
