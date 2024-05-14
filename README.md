@@ -8,7 +8,7 @@
 **Amazon.com, Inc.**, also known simply as Amazon, is a leading American multinational technology company engaged in e-commerce, cloud computing, digital streaming, and artificial intelligence. For detailed information, visit [Wikipedia](https://en.wikipedia.org/wiki/Amazon_(company)).
 
 ## Project Objective 🎯:
-This project aims to create a dynamic sales dashboard for Amazon's extensive product dataset. The dashboard will help visualize and analyze key metrics to drive strategic business decisions.
+This project aims to deliver a detailed snapshot of Amazon's operational performance, highlighting key trends and growth metrics to provide stakeholders with actionable insights into the business dynamics.
 
 ### Key performance indicators include 🔑:
 | Objective                        | Description                                                   |
