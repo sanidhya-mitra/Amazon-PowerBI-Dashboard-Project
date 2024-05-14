@@ -75,7 +75,7 @@ While developing the Amazon Sales Dashboard, I encountered several hurdles that 
 
 - **Understanding and DAX Function Syntax**: The journey began with the Calendar table, specifically when I tried to add a Quarter column. My initial attempt used the formula:
   ```
-  Quarter = 'QUARTER('Calendar'[Date])'
+  Quarter = QUARTER('Calendar'[Date])
   ```
   But, this quickly resulted in an error. It turned out that I needed to improve my formatting skills. After digging through forums and testing various expressions, I came up with the correct formula:
   ```
