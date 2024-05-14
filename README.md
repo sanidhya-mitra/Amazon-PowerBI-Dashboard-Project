@@ -33,6 +33,10 @@ This project aims to deliver a detailed snapshot of Amazon's operational perform
     </tr>
 </table>
 
+## Dashboard 📊:
+
+![Amazon Dashboard](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif)
+
 ## DAX and Data Modeling Details 📈:
 
 ### Calendar Table Creation
@@ -86,10 +90,6 @@ While developing the Amazon Sales Dashboard, I encountered several hurdles that 
 - **Data Modeling Nuances**: Aligning the e-commerce table with the Calendar table seemed straightforward—until I faced inconsistencies in date formats and missing entries. To ensure strong linkage, the solution called for meticulous data cleansing and format standardization. 
 
 - **Creating Dynamic Visualizations**: One of the most exciting yet challenging aspects was developing visualizations that could dynamically adjust based on user interactions. Learning advanced functionalities in Power BI to ensure the visualizations were responsive as well as intuitive and insightful involved a lot of trial and error, but it was incredibly rewarding.
-
-## Dashboard 📊:
-
-![Amazon Dashboard](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif)
 
 ## Conclusion and Insights 💡:
 
