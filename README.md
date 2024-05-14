@@ -21,6 +21,9 @@ This project aims to deliver a detailed snapshot of Amazon's operational perform
 | **Top 5 Subcategories by Revenue** | Best performing categories.                                  |
 | **Delivery Insights**            | Analysis of delivery timeframes.                              |
 
+## Dashboard 📊:
+
+![Amazon Dashboard](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif)
 
 ## Tools and Skills Used 🛠️:
 
@@ -32,10 +35,6 @@ This project aims to deliver a detailed snapshot of Amazon's operational perform
         <td align="center" width="33%"><img alt="DAX" width="50px" src="https://learn.microsoft.com/en-us/training/achievements/use-dax-power-bi-desktop.svg"/><br>DAX</td>
     </tr>
 </table>
-
-## Dashboard 📊:
-
-![Amazon Dashboard](https://github.com/sanidhya-mitra/sanidhya-mitra/blob/main/Amazon_Dashboard.gif)
 
 ## DAX and Data Modeling Details 📈:
 
